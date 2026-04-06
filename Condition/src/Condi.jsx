@@ -20,15 +20,28 @@ function Condi(){
     //     </div>
     // );
 
+    // return(
+    //     <div>
+    //         {islogged ? <h2>Welcome back, Poojan</h2> : <h2>Please Login</h2> }
+
+    //         <button onClick={() =>setIslogged(!islogged)}>
+    //             {islogged ? "Logout" : "Login "}
+    //         </button>
+    //     </div>
+    // );
+
     return(
         <div>
-            {islogged ? <h2>Welcome back, Poojan</h2> : <h2>Please Login</h2> }
-
-            <button onClick={() =>setIslogged(!islogged)}>
-                {islogged ? "Logout" : "Login "}
-            </button>
+            <h2>Dashboard</h2>
+            {islogged && (
+                <div>
+                    <h3>Welcome back </h3>
+                </div>
+            )}
+            <button onClick={() => setIslogged(!islogged)}> Logout </button>
         </div>
     );
+
 }
 
 export default Condi;
