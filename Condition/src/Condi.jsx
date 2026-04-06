@@ -30,17 +30,19 @@ function Condi(){
     //     </div>
     // );
 
-    return(
-        <div>
-            <h2>Dashboard</h2>
-            {islogged && (
-                <div>
-                    <h3>Welcome back </h3>
-                </div>
-            )}
-            <button onClick={() => setIslogged(!islogged)}> Logout </button>
-        </div>
-    );
+    // return(
+    //     <div>
+    //         <h2>Dashboard</h2>
+    //         {islogged && (
+    //             <div>
+    //                 <h3>Welcome back </h3>
+    //             </div>
+    //         )}
+    //         <button onClick={() => setIslogged(!islogged)}> Logout </button>
+    //     </div>
+    // );
+
+    
 
 }
 

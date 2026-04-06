@@ -1,9 +1,11 @@
 import Condi from "./Condi";
+import Traffic from './Traffic'
 
 function App(){
   return(
     <div>
-      <Condi />
+      {/* <Condi /> */}
+      <Traffic />
     </div>
   );
 }
