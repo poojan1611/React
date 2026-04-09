@@ -1,9 +1,13 @@
 import List from './List';
+import Studentlist from './Studentlist';
+import ProductList from './ProductList';
 
 function App(){
   return(
     <div>
-      <List />
+      {/* <List /> */}
+      {/* <Studentlist /> */}
+      <ProductList/>
     </div>
   );
 }
