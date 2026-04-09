@@ -2,6 +2,8 @@ import List from './List';
 import Studentlist from './Studentlist';
 import ProductList from './ProductList';
 import TodoList from './TodoList';
+import SortList from './SortList';
+import StdList from './StdList';
 
 function App(){
   return(
@@ -9,7 +11,9 @@ function App(){
       {/* <List /> */}
       {/* <Studentlist /> */}
       {/* <ProductList/> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      {/* <SortList /> */}
+      <StdList />
     </div>
   );
 }
