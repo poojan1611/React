@@ -1,6 +1,7 @@
 import Frm from "./Frm";
 import Sec from "./Sec";
 import Regform from "./Regform";
+import Contact from "./Contact";
 
 function App(){
 
@@ -8,7 +9,8 @@ function App(){
     <div>
       {/* <Frm /> */}
       {/* <Sec /> */}
-      <Regform />
+      {/* <Regform /> */}
+      <Contact/>
     </div>
   ); 
 }
